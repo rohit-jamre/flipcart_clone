@@ -2,6 +2,9 @@
 
 import {Box, Button, Typography,styled } from '@mui/material';
 
+// components
+import LoginDialog from '../Login/loginDialog';
+
 const Wrapper = styled(Box)`
 display:flex;
 margin:0 3% 0 auto;
@@ -34,6 +37,7 @@ const CustomButtons = () => {
            
             <Typography style ={{marginTop:3, fontSize:14}}>Cart</Typography>
            </Container>
+           <LoginDialog/>
         </Wrapper>
     )
 
